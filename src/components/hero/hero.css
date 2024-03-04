@@ -1,0 +1,61 @@
+
+
+
+
+section.hero{
+  margin-top: 3rem;
+  display: flex;
+  /* justify-content: space-around; */
+}
+
+section.hero .right-sec{
+  border: 1px solid red;
+
+}
+.left-sec{
+  
+  
+
+flex-grow: 1;
+
+  
+}
+
+.avatar{
+width:105px;
+border-radius: 50%;
+border: 1px solid darkorange;
+padding: 2px;
+
+}
+.icon-verified{
+  color: var(--bleu);
+  font-size: 1.1rem;
+}
+.social{
+  display: flex;
+  font-size: 1.5rem;
+  gap: 1.4rem;
+  margin-top: 2rem;
+
+  color: var(--subtitle);
+  transition: 1.3s;
+}
+.social .icon{
+  transition: 0.2s;
+}
+.social .icon:hover{
+scale: 1.4;
+cursor: pointer;
+color: var();
+}
+.title{
+  font-size: 2.6rem;
+  line-height: 3.3rem;
+  color: var(--title);
+  margin: 15px 0;
+}
+p.desc-me{
+color: var(--subtitle);
+line-height:1.2rem ;
+}
